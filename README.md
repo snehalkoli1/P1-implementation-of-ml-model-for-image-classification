@@ -14,28 +14,30 @@ This repository contains a Streamlit application that allows users to classify i
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
-   Create a virtual environment (recommended):
+   git clone https://github.com/snehalkoli1/P1-implementation-of-ml-model-for-image-classification.git
    ```
 
 This isolates your project's dependencies from your system's Python installation.
 Use virtualenv or venv (Python 3.3+):
+```
 Bash
-
 python3 -m venv venv
+```
 Activate the environment:
+
 Linux/macOS: source venv/bin/activate
 Windows: venv\Scripts\activate
+
 Install dependencies:
-
+```
 Bash
-
 pip install -r requirements.txt
+```
 Run the Streamlit app:
-
+```
 Bash
-
 streamlit run app.py
+```
 Dependencies:
 
 Streamlit
@@ -47,13 +49,3 @@ Model:
 The trained machine learning model is located in the models/ directory.
 [Specify the type of model, e.g., Convolutional Neural Network (CNN)]
 [Mention any specific details about the model, e.g., training dataset, accuracy]
-Contributing:
-
-We welcome contributions! Please open an issue or submit a pull request.
-License:
-
-This project is licensed under the [Choose a license, e.g., MIT License] - see the LICENSE file for details.
-
-Contact:
-
-[Your Name] - [Your Email Address]
